@@ -2,7 +2,9 @@
 import nltk 
 nltk.data.path.append('./nltk_data/') #this may need to change depending on when
 from nltk.corpus import stopwords
-import queryTwitter, tweetEasy, re, string
+import modules.queryTwitter as queryTwitter 
+import modules.tweetEasy as tweetEasy
+import re, string
 import numpy as np
 import numpy.linalg as LA
 
